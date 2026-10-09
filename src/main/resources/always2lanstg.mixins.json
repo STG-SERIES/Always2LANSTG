@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.stghecker.always2lanstg.mixin",
+  "compatibilityLevel": "${java}",
+  "client": [
+    "CreateWorldGameTabMixin",
+    "CreateWorldScreenMixin",
+    "ShareToLanScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

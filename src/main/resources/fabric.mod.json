@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "Opens your singleplayer world to LAN automatically every time you load it, with per-world settings.",
+  "authors": [
+    "STGHECKER"
+  ],
+  "license": "MIT",
+  "icon": "assets/always2lanstg/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.stghecker.always2lanstg.Always2LanStg"
+    ]
+  },
+  "mixins": [
+    "always2lanstg.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "${minecraft}"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "always2lanstg.button": "Always2LANSTG",
+  "always2lanstg.screen.title": "Always2LANSTG",
+  "always2lanstg.toggle.on": "Always2LANSTG: ON",
+  "always2lanstg.toggle.off": "Always2LANSTG: OFF",
+  "always2lanstg.port": "Port",
+  "always2lanstg.port.invalid": "Port must be a number from 1 to 65535",
+  "always2lanstg.opened": "Always2LANSTG opened this world to LAN on port %s",
+  "always2lanstg.opened.fallback": "Port %s was taken; Always2LANSTG opened LAN on port %s instead",
+  "always2lanstg.failed": "Always2LANSTG could not open this world to LAN (ports %s–%s were unavailable)",
+  "always2lanstg.already_open": "This world is already open to LAN on port %s",
+  "always2lanstg.cannot_close": "Minecraft cannot close Open to LAN on this version without leaving the world (currently on port %s)",
+  "always2lanstg.saved": "Always2LANSTG settings saved for this world",
+  "always2lanstg.command.singleplayer_only": "Always2LANSTG only works in singleplayer",
+  "always2lanstg.command.on": "Always2LANSTG is now ON for this world (port %s)",
+  "always2lanstg.command.off": "Always2LANSTG is now OFF for this world",
+  "always2lanstg.command.port": "Always2LANSTG port set to %s for this world",
+  "always2lanstg.command.status": "Always2LANSTG: %s, port %s%s",
+  "always2lanstg.command.status.open": " (currently open on port %s)",
+  "always2lanstg.command.status.closed": "",
+  "always2lanstg.status.on": "ON",
+  "always2lanstg.status.off": "OFF"
+}
