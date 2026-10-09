@@ -30,6 +30,8 @@ public final class ClientScreens {
     public static void addSystemMessage(Minecraft minecraft, Component message) {
         //? if >=26.2 {
         /*minecraft.gui.hud.getChat().addClientSystemMessage(message);*/
+        //?} else if >=26.1 {
+        /*minecraft.gui.getChat().addClientSystemMessage(message);*/
         //?} else
         minecraft.gui.getChat().addMessage(message);
     }
